@@ -31,6 +31,20 @@
       font-weight: 600;
       font-size: 1.8em;
     }
+    .back-button {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: #336633;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .back-button:hover {
+      background-color: #e8f5e9;
+    }
     main {
       flex: 1;
       width: 100%;
@@ -44,7 +58,7 @@
     .iframe-container {
       position: relative;
       width: 100%;
-      padding-top: 65%; /* proporção aproximada 16:10 */
+      padding-top: 65%;
       background: #e8f5e9;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -70,6 +84,7 @@
   <header>
     <img src="../logo-humana-1-1080x480.png" alt="Humana Horti">
     <h1>Infográfico — Painel Humana Horti</h1>
+    <a class="back-button" href="../">Voltar ao Painel</a>
   </header>
 
   <main>
@@ -83,3 +98,4 @@
   </footer>
 </body>
 </html>
+
