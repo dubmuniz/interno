@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humana Horti - Painel Interno</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #9acb60;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    header img {
+      width: 200px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 2em;
+      font-weight: 600;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    a.button {
+      background-color: #ffffff;
+      color: #336633;
+      text-decoration: none;
+      padding: 18px 40px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.2em;
+      transition: background 0.3s, transform 0.2s;
+    }
+    a.button:hover {
+      background-color: #e8f5e9;
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: rgba(255,255,255,0.8);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Untitled (3).png" alt="Logo Humana Horti">
+    <h1>Painel Humana Horti</h1>
+  </header>
+
+  <div class="button-container">
+    <a class="button" href="https://docs.google.com/spreadsheets/d/1QdU9vzJ6QrQf9gKMYdyGuqSi_1jh3N72RcouyDj79ek/edit?usp=sharing" target="_blank">Inserir Dados da Compra Semanal</a>
+    <a class="button" href="https://lookerstudio.google.com/reporting/436e0537-c4d1-4432-bf0a-51a82f7414c8" target="_blank">Ver Infográfico</a>
+  </div>
+
+  <footer>
+    © 2025 Humana Brasil | Uso interno da equipe Humana Horti
+  </footer>
+</body>
+</html>
